@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Manrope:wght@300&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin:0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+:root{
+    --dark: #d9d9d9;
+    --light:white;
+    --blue:#015098;
+}
+  
+.dark{
+    color:var(--dark);
+}
+.light{
+    color:var(--light);
+}
+.nav1{
+    background-color: black;
+    padding-top: 1.05rem;
+    padding-bottom: 1.05rem;
+    padding-left: 3rem;
+    font-size: 1.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    /* position: fixed; */
+}
+
+.nav2{
+    background-color: var(--blue);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.2rem;
+    font-family:'Quicksand', sans-serif;;
+    /* position: fixed; */
+}
+
+
+a{
+    padding-left: 2rem;
+    text-decoration: none;
+    color: var(--light);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pic{
+    /* border: 1px solid black; */
+    float: left;
+    border-radius: 200px;
+    width: 22rem;
+    height: 22rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    background-image: url(https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1578065667/content-items/003/570/265/Captura_de_pantalla_2019-04-26_a_las_13.16.11-original-original.jpg?1578065667);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.content{
+    width: 75rem;
+    text-align: center;
+    /* margin-top: ; */
+    padding-top: 7rem;
+    margin-bottom: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.total{
+    background-image: url("background.webp");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 0.9rem;
+    /* background-position-x: bottom; */
+}
+
+.contenthead{
+    font-family:'Eczar', serif;
+    font-size: 2.4rem;
+}
